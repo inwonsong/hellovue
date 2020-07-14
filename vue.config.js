@@ -1,6 +1,6 @@
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-    ? '/hellovue/'
+    ? '/my-project/'
     : '/' ,
-    outputDir : 'docs'
+    outputDir : 'dist'
 }
